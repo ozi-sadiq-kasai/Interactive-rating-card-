@@ -9,9 +9,9 @@
     <title>Card Rating</title>
 </head>
 <body>
-    <main>
-        <section>
-            <img src="./images/icon-star.png" alt="star">
+    <main class="sectionOne">
+        <section >
+            <img src="./images/icon-star.png" alt="star" class="star">
             <h1>
                 How did we do?
             </h1>
@@ -27,6 +27,19 @@
             </ul>
             <button>SUBMIT</button>
         </section>
+    </main> 
+    <main class="hidden">
+        <section class="check" >
+            <img src="images/illustration-thank-you.png" alt="icon" class="check-img">
+            <button class="btn">You selected <span class="number"></span> out of 5</button>
+            <h1>
+                Thank you!
+            </h1>
+            <p class="thanks">
+                We appreciate you taking the time to give a rating.If you ever need more support,don't hesitate to get in touch!
+            </p>
+        </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
